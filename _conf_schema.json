@@ -1,0 +1,23 @@
+{
+    "host": {
+        "description": "tts服务器地址",
+        "type": "string",
+        "default": "host.docker.internal"
+    },
+    "port": {
+        "description": "tts服务器端口",
+        "type": "string",
+        "default": "8088"
+    },
+    "tone": {
+        "description": "采用的角色声音",
+        "type": "string",
+        "options": ["saki","kotone","lilja","misuzu"],
+        "default": "saki"
+    },
+    "lora_path": {
+        "description": "lora文件根目录",
+        "type": "string",
+        "default": "E:/IrodoriTTS"
+    }
+}
